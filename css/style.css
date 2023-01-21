@@ -1,0 +1,16 @@
+:root {
+    --font-open-sans: "Open Sans", sans-serif;
+    --font-raleway: "Ralway", sans-serif;
+    --color-primary: #08A6E4;
+    --color-redish: #FB3B64;
+    --color-green: #55DFB4;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-grey: #A5A5A5;
+    --color-light-grey: #f7f7f7;
+    --button-radius: 35px;
+}
+
+*{
+    box-sizing: border-box;
+}
