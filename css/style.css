@@ -366,3 +366,197 @@ a {
     height: auto;
     margin-top: 55px;
 }
+
+/*pricing*/
+
+.pricing__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+
+}
+.pricing_title {
+    font-family: var(--font-raleway);
+    font-size: 36px;
+    text-align: center;
+    color: var(--color-black);
+    display: inline;
+
+}
+
+.pricing__boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.pricing__box__main {
+    margin-top: 34px;
+    margin-bottom: 69px;
+    text-align: center;
+}
+
+.pricing__box__sort {
+    font-family: var(--font-open-sans);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pricing__box__limmited {
+    color: var(--color-black);
+    font-size: 12px;
+    font-family: var(--color-redish);
+    font-weight: bold;
+
+}
+
+.pricing__box--basic {
+    border: 1px solid var(--color-redish);
+    border-radius: 18px;
+    width: 372px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__box--basic .pricing__box__price {
+    font-size: 46px;
+    font-family: var(--font-open-sans);
+    color: var(--color-redish);
+    font-weight: 300;
+    margin-top: 14px;
+    margin-bottom: 30px;
+
+}
+
+.pricing__points {
+    text-align: center;
+    margin-bottom: 53px;
+}
+
+.pricing__point {
+    font-size: 14px;
+    font-family: var(--font-open-sans);
+    margin-bottom: 20px;
+
+}
+
+.pricing__point::before {
+    content:"";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    background-image: url("../assets/Ckechmark-1.svg");
+    margin-right: 10px;
+}
+
+.pricing__point__red {
+    font-size: 14px;
+    font-family: var(--font-open-sans);
+    margin-bottom: 20px;
+
+}
+
+.pricing__point__red::before {
+    content:"";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    background-image: url("../assets/Close.svg");
+    margin-right: 10px;
+}
+
+.pricing__box--basic .pricing__btn {
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 23px;
+    background-color: var(--color-redish);
+    border: none;
+    font-family: var(--font-open-sans);
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--color-white);
+    padding: 16px 57px;
+    position: relative;
+    margin-bottom: -25px;
+
+}
+.pricing__box--professional {
+    border: 1px solid var(--color-primary);
+    border-radius: 18px;
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 40px;
+    box-shadow: 5px 10px 27px var(--color-primary-shadow);
+
+}
+
+.pricing__box--professional .pricing__box__price {
+    font-size: 46px;
+    font-family: var(--font-open-sans);
+    color: var(--color-primary);
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.pricing__box--professional .pricing__btn {
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 23px;
+    background-color: var(--color-primary);
+    border: none;
+    font-family: var(--font-open-sans);
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--color-white);
+    padding: 16px 57px;
+    position: relative;
+    margin-bottom: -25px;
+}
+
+.pricing__box--professional .pricing__point__red {
+    margin-bottom: 53px;
+}
+
+.pricing__box--premimum {
+    border: 1px solid var(--color-green);
+    border-radius: 18px;
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.pricing__box--premimum .pricing__box__price {
+    font-size: 46px;
+    font-family: var(--font-open-sans);
+    color: var(--color-green);
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.pricing__box--premimum .pricing__btn {
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 23px;
+    background-color: var(--color-green);
+    border: none;
+    font-family: var(--font-open-sans);
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--color-white);
+    padding: 16px 57px;
+    position: relative;
+    margin-bottom: -25px;
+}
